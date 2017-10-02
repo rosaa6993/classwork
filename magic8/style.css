@@ -100,15 +100,18 @@ padding:2%;
 .magic8 p{
   font-family: sans-serif;
   font-size: 15px;
+margin-left: 2em;
 }
 .magic8 input {
   width: 200px;
   font-family: sans-serif;
   font-size: 15px;
+    margin-left: 2em;
 }
 .magic8 button{
   font-family: sans-serif;
   font-size: 15px;
+    margin-left: 2em;
 }
 
 /*------------------end of magic8 css --------*/
