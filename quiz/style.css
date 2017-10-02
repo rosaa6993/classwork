@@ -96,45 +96,44 @@ padding:2%;
    margin: 2%;
 padding:2%;
 }
-/*-- mad libz css */
-.madlibz h1{
-    padding: 20px;
-    background-color: black;
-    color: white;
-    margin-bottom: 15px;
-}
-.alert {
-    padding: 20px;
-    background-color: lightgray;
-    color:deeppink;
-    font-size: 3em;
-}
-
-/*--end of mad libz css */
-
+/*--------------- QUIZZ CSSS ----------------*/
 .question{
-	font-weight: 600;
+    font-weight: 600;
+     margin-left: 4em;
+    margin-top: 2em;
+    
 }
 .answers {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
+     margin-left: 4em;
+}
+.answers label{
+  display: block;
+     margin-left: 4em;
 }
 #submit{
-	font-family: sans-serif;
-	font-size: 20px;
-	background-color: #297;
-	color: #fff;
-	border: 0px;
-	border-radius: 3px;
-	padding: 20px;
-	cursor: pointer;
-	margin-bottom: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: black;
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    padding: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    margin-left: 4em;
 }
 #submit:hover{
-	background-color: #3a8;
+    background-color: #38a;
+    margin-left: 4em;
+}
+#results{
+     margin-left: 4em;
+    font-size: 20px;
 }
 
 
-/*---------------------imgs-----------------*/
+
 /* For small devices (e.g. smartphones) */
 img {
   max-width: 100%;
