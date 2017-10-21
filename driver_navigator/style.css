@@ -1,0 +1,83 @@
+body{
+    background-color: black;
+    text-align: center;
+    text-align: right;
+    font-family: 'Roboto Slab', serif;
+    
+}
+#textbox{
+    text-decoration: none;
+    color: red;
+    background: black;
+    border: black;
+    font-size: 4em;
+    font-family: 'Roboto Slab', serif;
+}
+#textbox2{
+    text-decoration: none;
+    color: deepskyblue;
+    background: black;
+    border: black;
+    font-size: 4em;
+    font-family: 'Roboto Slab', serif;
+}
+#textbox3{
+    text-decoration: none;
+    color: mediumpurple;
+    background: black;
+    border: black;
+    font-size: 4em;
+    font-family: 'Roboto Slab', serif;
+}
+#textbox4{
+    text-decoration: none;
+    color: orange;
+    background: black;
+    border: black;
+    font-size: 4em;
+    font-family: 'Roboto Slab', serif;
+}
+#textbox5{
+    text-decoration: none;
+    color: yellow;
+    background: black;
+    border: black;
+    font-size: 4em;
+    font-family: 'Roboto Slab', serif;
+}
+.design{
+    background: black;
+    color: white;
+    border: black;
+    font-size: 4em; 
+    font-family: 'Roboto Slab', serif;
+}
+.inspire{
+    background: black;
+    color: white;
+    border: black;
+    font-size: 4em;
+    font-family: 'Roboto Slab', serif;
+}
+.that{
+    background: black;
+    color: white;
+    border: black;
+    font-size: 4em; 
+    font-family: 'Roboto Slab', serif;
+}
+.through{
+    background: black;
+    color: white;
+    border: black;
+    font-size: 4em;
+    font-family: 'Roboto Slab', serif;
+    
+}
+.using{
+    background: black;
+    color: white;
+    border: black;
+    font-size: 4em;
+    font-family: 'Roboto Slab', serif;
+}
