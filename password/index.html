@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+      <nav>
+                <ul class="top-nav" id="my-top-nav">
+                    <li><a class="active" href="../index.html">home</a></li>
+                    <li><a href="../project1/index.html">project1</a></li>
+                    <li><a href="../madlib/index.html">MadLibz</a></li>
+                    <li><a href="../quiz/index.html">Quiz</a></li>
+                    <li><a href="../magic8/index.html">Magic</a></li>
+                     <li><a href="index.html">Password</a></li>
+                    <li><a href="../contact.html">contact</a></li>
+                    <li class="icon"><a href="javascript:void(0);" style="font-size:2.25em;" onclick="myFunction()" >&#9776;</a></li>
+                </ul>
+            </nav>
+    <link rel="stylesheet" href="style.css">
+    <title>Password Generator</title>
+</head>
+<body>
+    <h1>Password Generator</h1>
+   
+    <h3 id="un">Please type in your username.</h3>
+    <input id="username" type="text" placeholder="Type in your username.">
+    <h3>Type in the length of your password</h3>
+    <input id="length" type="text" placeholder="Type in the length.">
+    <h3>Type in a key word that is less than the total length of your password</h3>
+    <input id="keyword" type="text" placeholder="Type in a key word.">
+    <button id="submit">Create your password</button>
+    <p id="password"></p>
+    <script src="script.js"></script>
+</body>
+</html>
