@@ -1,0 +1,38 @@
+img{
+    width:70%;
+    margin-left: 2%;
+    float: left;
+    margin-bottom: 3%; 
+    margin-top: 3%;
+}
+p{
+    font-size: 2em;
+    margin-left: 2%; 
+    float: left;
+}
+h1{
+   font-size: 4em;
+    margin-left: 2%;
+    background: black;
+    color: white;
+}
+div{
+    column-count: 2;
+    column-width: 100%;
+    border-style: solid
+}
+div:last-child {
+    
+    column-count: 1;
+    column-width: 100%;
+    border-style: solid;
+    margin-bottom: 0;
+}
+div:last-child img{
+    float: none;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0;
+    margin-top: 0;
+}
