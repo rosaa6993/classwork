@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <!-- responsive: meta tag viewport should make all site pages work on all devices and screen sizes -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title> Mobile First | Media Queries </title>
+        
+        <link rel ="stylesheet" href="css/style.css"> 
+       <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+
+
+    </head>
+    <body>
+        
+       <div class="container"> 
+           <nav> 
+                <ul class="top-nav" id="my-top-nav">
+                    <li> <a class="active" href="index.html"> home </a></li>
+                    <li> <a href="artist-profile.html.html"> works </a> </li>
+                    <li> <a href="#about"> about </a> </li>
+                    <li> <a href="#contact"> contact </a> </li>
+                    <li class="menuIcon"> <a href="javascript:void(0);" style="font-size:2.25em;" onclick="collapseNavbar()">&#9776;</a></li>
+                </ul>
+            </nav>
+        </div>
+           
+             <div class="main-content">
+          
+                 <section class="inner-content">
+           <h1>The Others in Art </h1>
+                <div class="mobilep">
+            <p> Marvels mighty mutants go worldwide and beyond in this series following Cyclops, Wolverine, Beast, Emma Frost and more in their astonishing adventures. 
+              </p> 
+                    </div>
+                
+           
+<!--SEARCH BAR CODE-->
+<!-- <form id="demo-2">
+	<input type="search" placeholder="Search">
+</form>  -->
+<!-- SLIDER CODE-->           
+<div class="sliderimages">           
+<div class="w3-content w3-display-container">
+
+<div class="w3-display-container mySlides">
+  <img src="images/ai-wei-wei_bang.jpg" style="width:100%" alt="bang">
+  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+    Bang, Ai Wei Wei
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="images/ai-wei-wei_bicycles-taiwan-absent.jpg" style="width:100%" alt="bikes">
+  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+    Bicycles, Ai Wei Wei
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="images/ai-wei-wei_moon-chest.jpg" style="width:100%" alt="moonchest">
+  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+    Moon Chest, Ai Wei Wei
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="images/ai-wei-wei_studio.jpg" style="width:100%" alt="bikes">
+  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+    Studio, Ai Wei Wei
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="images/ai-wei-wei_colored-vases.jpg" style="width:100%" alt="bikes">
+  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+    Colored Vases, Ai Wei Wei
+  </div>
+</div>
+
+<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+
+</div>
+                
+           </div>
+                     
+            
+                  </section>
+  <script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>         
+           
+                    <!--end of SLIDER CODE-->           
+        <div class="extra">
+                <p> The Others in Art considers itself to be a place that fuels diverse creativity, ignites the minds, and provides inspiration for those seeking a profession in arts, or simply to inspire. The Others in Art is dedicated to fostering a conversation between the past and the present, the established and the experimental. Our goal is to give exposure to voices not often heard or seen in the arts.
+
+The Others in Art was founded in 2016 as an educational web gallery by students at the Borough of Manhattan Community College. Central to its mission is to encourage an ever deeper understanding and enjoyment of art of the past and the present created by a diverse local, national and international audience that it serves and represents.
+
+We hope to foster and continue to be there for the people who love art and design, create it and tinker with it. Art for the people by the people.</p>
+                </div>   
+         
+     
+    <hr>       
+           
+           <h1>Ai Wei Wei </h1> <!--ABout me link? -->
+           <div class="artistimage">    
+           <img src="images/ai-wei-wei_portrait.jpg" alt="aiweiwei" style="width:100%;height:100%;">
+           </div>
+           
+           <div class="aboutartist">
+           <p> Ai Weiwei is an artist. Born in 1957, he currently resides and works in Beijing.<button type="button">Read More</button></p> 
+               </div>
+           <div class="desktopabout">
+           <p> Ai Weiwei is an artist. Born in 1957, he currently resides and works in Beijing.Ai Weiwei is an artist. Born in 1957, he currently resides and works in Beijing.Ai Weiwei is an artist. Born in 1957, he currently resides and works in Beijing.Ai Weiwei is an artist. Born in 1957, he currently resides and works in Beijing.Ai Weiwei is an artist. Born in 1957, he currently resides and works in Beijing.Ai Weiwei is an artist. Born in 1957, he currently resides and works in Beijing.<button type="button">Read More</button></p> 
+            </div>
+            <br>
+           <div class="artwork">
+               <img src="images/ai-wei-wei_bicycles-taiwan-absent.jpg" alt="bleh">
+           <img src="images/ai-wei-wei_bang.jpg"alt="bleh">
+              </div>
+              
+               <div class="artworkp"> 
+           <p> Tree 2010 is a monumental sculpture assembled from the dry, dead branches, roots and trunks of numerous species of tree, such as camphor, cedar and ginkgo, that Ai Weiwei gathered from across the mountainous southern region of his native China. <button type="button">More From Artist</button></p>
+           </div> 
+           
+           
+           
+         <br>      
+        <br>
+              
+         <!--       
+        <footer>            
+            <p> Amber Rosa Copyright &#169; 2017</p>
+        </footer>
+               -->
+        </div> <!-- end of container -->
+        <script>
+            function collapseNavbar() {
+                var x = document.getElementById("my-top-nav");
+                if (x.className === "top-nav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "top-nav";
+                }
+            }
+        
+        </script>
+            
+        
+    </body>
+
+
+
+
+
+</html>
